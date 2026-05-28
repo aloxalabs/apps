@@ -1,0 +1,76 @@
+/* style.css */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.container{
+  width:100%;
+  max-width:400px;
+}
+
+.card{
+  background:#1e293b;
+  border-radius:20px;
+  padding:30px;
+  text-align:center;
+  box-shadow:0 0 30px rgba(0,0,0,0.4);
+}
+
+.logo{
+  width:100px;
+  margin-bottom:20px;
+}
+
+h1{
+  font-size:32px;
+  margin-bottom:10px;
+}
+
+.desc{
+  color:#cbd5e1;
+  margin-bottom:20px;
+}
+
+.info{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:25px;
+  font-size:14px;
+  color:#94a3b8;
+}
+
+.download-btn{
+  display:block;
+  background:#3b82f6;
+  color:white;
+  text-decoration:none;
+  padding:15px;
+  border-radius:12px;
+  font-weight:bold;
+  transition:0.2s;
+}
+
+.download-btn:hover{
+  background:#2563eb;
+  transform:scale(1.03);
+}
+
+.footer{
+  margin-top:20px;
+  font-size:12px;
+  color:#64748b;
+}
